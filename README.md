@@ -36,9 +36,11 @@ TBD
 ## Error Handling Examples
 
 Error handling number input in text field
+
 <img width="454" alt="Error on text field" src="https://github.com/user-attachments/assets/8cbf77dc-daa1-4646-81ba-85aaa7ce051a" />
 
 Error handling text input in number field
+
 <img width="454" alt="Error on text field" src="https://github.com/user-attachments/assets/8cbf77dc-daa1-4646-81ba-85aaa7ce051a" />
 
 ---
