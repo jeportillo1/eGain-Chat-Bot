@@ -1,0 +1,110 @@
+/* General body styling for centering the chat container */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Container that holds the entire chat UI */
+#chat-container {
+    width: 400px;
+    max-width: 90%;
+    height: 600px;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 2px solid #0099ff;
+}
+
+/* Header section of the chat box */
+#chat-header {
+    background: #0099ff;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 16px;
+}
+
+/* Scrollable window area where messages appear */
+#chat-window {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+}
+
+/* Styling for individual messages */
+.chat-message {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+/* User message styling (aligned right and blue) */
+.user {
+    text-align: right;
+    color: #0099ff;
+    font-weight: 600;
+}
+
+/* Bot message styling (aligned left and dark gray) */
+.bot {
+    text-align: left;
+    color: #333333;
+}
+
+/* Form section for user input at bottom */
+#chat-form {
+    display: flex;
+    padding: 12px;
+    border-top: 1px solid #ddd;
+}
+
+/* Text input styling */
+#chat-input {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* Send button styling */
+#chat-form button {
+    background-color: #0099ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Style for each option button shown in the chat */
+.option-button {
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin: 4px 4px 0 0;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Hover effect for option buttons */
+.option-button:hover {
+    background: #e0e0e0;
+}
+
+/* Disabled state for the send button */
+#chat-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
